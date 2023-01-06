@@ -1,0 +1,22 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "helps in downloading videos from youtube",
+  "main": "./src/api.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "author": "uptimax",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.0",
+    "webpack": "^5.75.0",
+    "ytdl-core": "^4.11.2"
+  }
+}
